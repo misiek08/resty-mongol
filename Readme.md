@@ -105,7 +105,7 @@ Returns 1 in case of success, or nil with error message.
 ####col = db:get_col(collection_name)
 Returns a collection object for more operations.
 
-####gridfs = db:get_gridfs(fs)
+####gridfs = db:get_gridfs(fs, files_col, chunks_col)
 
 ###Collection objects
 ------------
